@@ -56,7 +56,7 @@ export default {
     published_date: String,
     category: Object,
     quantity: {
-      type: Number,
+      type: [Number, String],
       default: 0,
     },
     borrowed_count: {
